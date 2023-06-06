@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+
+/*
+base style
+*/
+body {
+    font-family: 'Noto Serif JP', serif, "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#c42100, #ffcdbd);
+}
+
+li {
+    list-style: none;
+}
+
+
+/*header*/
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+
+}
+.header-logo {
+    margin: 0;
+    width: 20%;
+    height: 20%;
+    margin-top: 5px;
+}
+.header-logo > a {
+    display: block;
+}
+/*.header-nav {}*/
+
+.header-navlist {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.header-navitem {}*/
+
+.header-navitem > a {
+    display: block;
+    padding: 10px 50px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.25s;
+}
+
+
+.header-navitem > a:hover{
+    border-bottom: 3px solid #333;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    z-index: 100;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-title {
+    font-size: 4rem;
+    margin: 50px;
+}
+
+.content {
+    width: 1150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .image {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image {
+    border-radius: 20px;
+}
+
+
+.content .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.text-box {
+    z-index: 20;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    transform: translate(30px, 30px);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border-radius: 1px solid rgba(255, 255, 255, 0.1) ;
+}
+
+.content .text-box h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.media-icons {
+    margin-top: 80px;
+}
+
+
+.media-icons a{
+    color: blue;
+    font-size: 2rem;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 80px;
+}
+
+.info-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 700px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+

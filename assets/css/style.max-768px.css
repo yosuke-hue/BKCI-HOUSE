@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+
+    .header {
+        font-size: 10px;
+        background-color: whitesmoke;
+    }
+
+    .header-logo {
+        display: noe;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 20%
+    }
+
+    .header-navlist {
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .header-navitem {
+        width: 14vw;
+    }
+
+    .hero > strong {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        font-size: 23px;
+        color: rgb(60, 60, 60);
+        width: 100%;
+        text-align: center;
+        background-color: rgb(255, 54, 54);
+    }
+
+
+    .main-image {
+        position: absolute;
+        top: 12%;
+        width: 100%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .section {
+        padding: 20px 20px;
+    }
+
+    .section-headline {
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+
+    .section-botton {
+        margin: 20px 0 0;
+    }
+
+    .about {
+        display: block;
+    }
+    .about-image {
+        max-width: 100%;
+    }
+    .about-headline {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .about-descriptionn {
+        text-align: left;
+    }
+
+        
+    .grid {
+        display: block;
+    }
+    .grid-col-2 > .grid-item,
+    .grid-col-3 > .grid-item,
+    .grid-col-4 > .grid-item {
+    width: 100%;
+    margin: 20px 0;
+    }
+
+    .footer-map {
+        padding: 15px;
+        display: block;;
+    }
+
+    .footer-map > iframe {
+        width: 100%;
+        height: 250px;
+    }
+    .footer-mapinfo {
+        width: 100%;
+    }
+
+
+
+}
