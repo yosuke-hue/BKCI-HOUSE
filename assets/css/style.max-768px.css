@@ -45,6 +45,7 @@
         height: 80%;
         background-repeat: no-repeat;
         background-size: contain;
+        object-fit: cover;
     }
 
     .section {
