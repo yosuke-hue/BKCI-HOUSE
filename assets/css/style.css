@@ -94,10 +94,9 @@ li {
     z-index: 2;
     font-size: 40px;
     color: rgb(11, 11, 11);
-    width: 60%;
+    width: 100%;
     text-align: center;
-    background-color: rgba(255, 80, 80, 0.9);
-    border-radius: 20px;
+    background-color: rgba(255, 29, 29, 0.9);
 }
 
 
