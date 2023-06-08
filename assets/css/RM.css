@@ -22,8 +22,11 @@ html,body{
     }
 
 
+/*header*/
+/*header*/
 .header {
     width: 100%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +35,7 @@ html,body{
     z-index: 10;
     top: 0;
     left: 0;
-    /* background-color: whitesmoke; */
+    background-color: rgb(228, 228, 228, 0.7);
 }
 
 
@@ -43,6 +46,8 @@ html,body{
     margin-top: 5px;
 }
 .header-logo > a {
+    position: absolute;
+    top: 0%;
     display: block;
 }
 /*.header-nav {}*/
